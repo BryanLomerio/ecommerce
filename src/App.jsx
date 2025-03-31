@@ -17,7 +17,7 @@ function App() {
       <Route path="route-path" element={<Component />} />
     </Routes>
       */}
-      <Header/>
+      <Header />
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/rival" element={<NewRivals/>} />
