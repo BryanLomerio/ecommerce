@@ -18,6 +18,7 @@ function App() {
     </Routes>
       */}
       <Header />
+      <div className="ml-10 mr-10">
       <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/rival" element={<NewRivals/>} />
@@ -25,6 +26,8 @@ function App() {
       <Route path="/about" element={<About/>} />
       <Route path="/contact" element={<Contact/>} />
       </Routes>
+      </div>
+
     </div>
   )
 }
