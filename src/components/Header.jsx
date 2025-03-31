@@ -4,7 +4,7 @@ import { Link } from "react-router";
 function Header() {
 
 const hoverStyle = `
-hover:bg-red-500 p-2 rounded-lg
+hover:bg-white p-2 rounded-lg hover:text-black transition duration-300 ease-in-out
 `;
 
   return (
