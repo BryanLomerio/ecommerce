@@ -15,8 +15,8 @@ NavLink Syntax with active styles
 */
 
 function Header() {
-  // Base styles
-  const baseStyle = "p-2 rounded-lg transition duration-300 ease-in-out";
+  // Base styles for the hover
+  const baseStyle = "p-2 rounded-lg transition-color duration-200 ease-in-out";
 
   return (
     <div className="flex w-full h-20 bg-[#272727] gap-10 text-white text-center justify-center items-center mb-10">
